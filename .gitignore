@@ -2,3 +2,4 @@ docker-local
 vendor
 auth.json
 composer.lock
+.idea
