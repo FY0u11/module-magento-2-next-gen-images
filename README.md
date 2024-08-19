@@ -1,6 +1,9 @@
 # Magento 2 module for NextGenImages
 This module adds next-gen image support to Magento 2. Please note that this is a base extension for other extensions to use. See [Lof_Webp2](https://github.com/landofcoder/module-magento-2-webp2) for details.
 
+## Fork reason
+I updated dependencies in composer.json for PHP 8.2+ compatibility
+
 ## Development
 This module features some settings and info panels in the Magento Store Configuration. But the major feature is a plugin on the `Layout` that scans for HTML `<img/>` tags to convert them into `<picture/>` tags with sources for alternative image formats.
 
